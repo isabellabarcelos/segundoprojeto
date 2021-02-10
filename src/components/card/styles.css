@@ -1,0 +1,41 @@
+.card-container {
+    width: 200px;
+    background-color: #F1F2F3;
+    border-radius: 2.48873px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 95px;
+    padding: 10px;
+    border:1px solid teal;
+}
+.card-container h3 {
+    padding-top:10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16.6619px;
+    line-height: 20px;
+
+}
+.login2 {
+    width: 90%;
+    height: 35px;
+    margin-bottom: 3%;
+    border: 1px solid teal;
+    border-radius: 3px;
+    outline: none;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    margin-top:10px;
+    margin-left: 10px;
+  }
+  
+  .login2:hover {
+    background-color: aquamarine;
+    border: aquamarine;
+  }
+
+

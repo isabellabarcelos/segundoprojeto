@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    outline: 0;
+}
+.container {
+  width: 100%;
+  background-color: #F1F2F3;
+}
+
+.title-container {
+  padding-left: 99px;
+  padding-top: 20px;
+  width: 80%;
+}
+
+.title-container h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 88px;
+  color: teal;
+  padding-top: 50px;
+}
+
+#table {
+  border:1px solid teal;
+  list-style: none;
+
+}
+.footer{
+    width: 100%;
+    position:relative;
+    bottom: 0;
+}
+#ul {
+  display: flex;
+  flex-direction: column;
+
+}

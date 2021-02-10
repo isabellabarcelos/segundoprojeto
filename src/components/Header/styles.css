@@ -1,0 +1,72 @@
+#container {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  border-bottom: 1px solid rgb(1, 107, 107);
+  background-color: teal;
+  position:fixed;
+  top:0;
+}
+.header-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+.button-container {
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  color: black;
+}
+.header-container button {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230.87px;
+  background-color: teal;
+  font-size: 16.5532px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+}
+.header-container button:hover {
+  color: aquamarine;
+  border-top: 3px solid aquamarine;
+}
+#user-image {
+  height: 45px;
+  width: 45px;
+  background-color: teal;;
+  margin: 5px;
+  cursor: pointer;
+}
+#brand-image{
+  background-color: teal;
+}
+#image {
+  width: 50px;
+  height: 100%;
+  cursor: pointer;
+
+}
+
+#user-container {
+  background-color: teal;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#user-container h4 {
+  background-color: teal;
+  cursor: pointer;
+}
+#user-container h4:hover {
+  text-decoration: underline;
+  color: aquamarine;
+}
