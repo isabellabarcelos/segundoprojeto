@@ -6,6 +6,7 @@
 #body {
  width: 100%;
 }
+
  #div {
   width: 25%;
   height: 500px;
@@ -42,30 +43,51 @@ form {
   width: 90%;
   height: 35px;
   margin-bottom: 3%;
-  border: 1px solid teal;
+  border: 1px solid #fab0af;
   border-radius: 3px;
   outline: none;
-  background-color: teal;
+  background-color: #fab0af;
   color: white;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .login:hover {
-  background-color: aquamarine;
-  border: aquamarine;
+  background-color: #ffcbca;
+  border: #ffcbca;
 }
 #div h2 {
   padding-bottom: 10px;
+  display: flex;
 }
-#div a {
+#a {
   padding-bottom: 15px;
   cursor: pointer;
-  color: teal;
+  color: #fab0af;
 }
-#div a:hover {
+#a:hover {
   text-decoration: underline;
 }
 #div h1 {
   padding-bottom: 30px;
   font-size: 30px;
+}
+#brand-image{
+
+  width: 200px;
+  height: 200px;
+  position: initial;
+  background: url("logo2.png") 13% 0 no-repeat;
+  background-image: url("logo2.png");
+  background-size: 100% 100%;
+}
+#footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+form p {
+  display: flex;
+  flex-direction: row;
 }

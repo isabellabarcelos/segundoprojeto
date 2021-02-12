@@ -15,23 +15,21 @@ function Num() {
   
 export default function Card2({data}) {
     return (
-        <div className="card-container">
+        <div className="card-container2">
             <div>
                 <h3>
                 <strong>{data.name}</strong>
                 </h3>
             </div>
-                <div>
-                    <strong>Preço: </strong>{data.price}
-                </div>
             <div>
-                <strong>Quant.: </strong>{data.quant}
-                <button type="button" className ="Login" id="menos" onclick="Num()"><i class="fa fa-minus-circle"aria-hidden="true"></i></button> &nbsp; 
-                <input type="number" name="numero" id="num" oninput="Num()"/> &nbsp;
-                <button type="button" className ="Login" id="mais" onclick="Num()"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                <h3>
+                <strong>{data.name}</strong>
+                </h3>
             </div>
             <div>
-            <strong>Total.: </strong>{data.quant}
+                <strong>Preço: R$ </strong>{data.price}
+            </div>
+            <div>
             </div>
         </div>
     );

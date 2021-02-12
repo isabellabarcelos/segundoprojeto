@@ -1,41 +1,43 @@
 .card-container {
-    width: 200px;
-    background-color: #F1F2F3;
-    border-radius: 2.48873px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 95px;
-    padding: 10px;
-    border:1px solid teal;
+  width: 200px;
+  height: 380px;
+  background-color: #FFFFFF;
+  border-radius: 4.48873px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: -50px;
+  border: 1px solid #c7c7c7;
+}
+.card-container:hover{
+  
+  border: 2px solid #c7c7c7;
 }
 .card-container h3 {
-    padding-top:10px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-weight: 400;
-    font-size: 16.6619px;
-    line-height: 20px;
-
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 16.6619px;
+  line-height: 20px;
 }
-.login2 {
-    width: 90%;
-    height: 35px;
-    margin-bottom: 3%;
-    border: 1px solid teal;
-    border-radius: 3px;
-    outline: none;
-    background-color: teal;
-    color: white;
-    cursor: pointer;
-    margin-top:10px;
-    margin-left: 10px;
-  }
-  
-  .login2:hover {
-    background-color: aquamarine;
-    border: aquamarine;
-  }
+.login3 {
+  width: 80%;
+  height: 35px;
+  padding-top: -200px;
+  margin-bottom: 3%;
+  border: 1px solid #FAB0AF;
+  border-radius: 3px;
+  outline: none;
+  background-color: #FAB0AF;
+  color: white;
+  cursor: pointer;
+  margin-left: 23px;
+}
 
-
+.login3:hover {
+  background-color: #ffcbca;
+  border: #fdcbca;
+}

@@ -1,12 +1,12 @@
 #container {
-  height: 10%;
+  height: 13%;
   width: 100%;
   display: flex;
-  justify-content:space-around;
-  border-bottom: 1px solid rgb(1, 107, 107);
-  background-color: teal;
-  position:fixed;
-  top:0;
+  justify-content: space-around;
+  border-bottom: 1px solid #C7c7c7;
+  background-color:#FFFFFF;
+  position: fixed;
+  top: 0;
 }
 .header-container {
   width: 60%;
@@ -19,7 +19,7 @@
   text-decoration: none;
   border: none;
   font-weight: bold;
-  color: black;
+  color:#ffcbca;
 }
 .header-container button {
   padding: 15px;
@@ -27,46 +27,59 @@
   justify-content: center;
   align-items: center;
   width: 230.87px;
-  background-color: teal;
+  background-color: #FFFFFF;
   font-size: 16.5532px;
   font-weight: 600;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
   border: 0;
+  padding-top: 30px;
 }
 .header-container button:hover {
-  color: aquamarine;
-  border-top: 3px solid aquamarine;
+  color: #ffcbca;
+  border-top: 3px solid #ffcbca;
 }
 #user-image {
   height: 45px;
   width: 45px;
-  background-color: teal;;
+  background-color:#FFFFFF;
   margin: 5px;
   cursor: pointer;
 }
-#brand-image{
-  background-color: teal;
+#user-image:hover {
+  color: #ffcbca;
 }
+#brand-image2 {
+  margin-top: -10px;
+  margin-left: 10px;
+  width: 140px;
+  height: 111%;
+  position: relative;
+  background-color:teal;
+  background: url("logo2.png") 13% 0 no-repeat;
+  background-image: url("logo2.png");
+  background-size: 100% 110%;
+
+}
+
 #image {
   width: 50px;
   height: 100%;
   cursor: pointer;
-
 }
 
 #user-container {
-  background-color: teal;
+  background-color: #FFFFFF;
   height: 100%;
   display: flex;
   align-items: center;
 }
 #user-container h4 {
-  background-color: teal;
+  background-color:#FFFFFF;
   cursor: pointer;
 }
 #user-container h4:hover {
   text-decoration: underline;
-  color: aquamarine;
+  color: #ffcbca;
 }

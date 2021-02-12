@@ -5,7 +5,7 @@
 }
 .container {
   width: 100%;
-  background-color: #F1F2F3;
+  background-color: #FFFFFF;
 }
 
 .title-container {
@@ -18,22 +18,31 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 88px;
-  color: teal;
+  color: #facbcb;
   padding-top: 50px;
 }
 
 #table {
-  border:1px solid teal;
   list-style: none;
-
+  min-height: 264.5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
+
 .footer{
     width: 100%;
     position:relative;
     bottom: 0;
 }
-#ul {
-  display: flex;
-  flex-direction: column;
+#table ul {
+ list-style: none;
+ width: 900px;
 
+}
+#total{
+ border: 1px solid #C7C7C7;
+ width: 760px;
+ padding: 10px;
+ padding-left: 40px;
 }

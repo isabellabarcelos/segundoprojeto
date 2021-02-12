@@ -1,0 +1,142 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.title-container-details{
+  padding-top: 100px;
+  padding-left: 50px;
+  width: 600px;
+  font-size: 30px;
+  color:#FAB0AF;
+  display: flex;
+  flex-direction: column;
+}
+.title-container-details h1{
+  margin-top: 50px;
+  padding-left: 20px;
+  font-size: 40px;
+}
+
+
+#div {
+  width: 25%;
+  height: 500px;
+  padding-left: 490px;
+  margin-top: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#img2 {
+  width: 90px;
+  height: 90px;
+  margin: 10px;
+}
+
+#username,
+#password {
+  width: 90%;
+  height: 35px;
+  margin-bottom: 3%;
+  border: 1px solid #c7c7c7;
+  border-radius: 3px;
+  border-radius: 3px;
+  padding-left: 5px;
+  outline: none;
+}
+
+.login {
+  width: 90%;
+  height: 35px;
+  margin-bottom: 3%;
+  border: 1px solid #fab0af;
+  border-radius: 3px;
+  outline: none;
+  background-color: #fab0af;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login:hover {
+  background-color: #ffcbca;
+  border: #ffcbca;
+}
+#div h2 {
+  padding-bottom: 10px;
+}
+#div a {
+  padding-bottom: 15px;
+  cursor: pointer;
+  color: #fab0af;
+}
+#div a:hover {
+  text-decoration: underline;
+}
+#div h1 {
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+#brand-image {
+  width: 200px;
+  height: 200px;
+  position: initial;
+  background: url("./logo2.png") 13% 0 no-repeat;
+  background-image: url("./logo2.png");
+  background-size: 100% 100%;
+}
+#footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+.login4 {
+  width: 100px;
+  height: 50px;
+  margin-top: -55px;
+  margin-bottom: 3%;
+  padding: 10px;
+  border: 1px solid #FAB0AF;
+  border-radius: 3px;
+  outline: none;
+  background-color: #FAB0AF;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login4:hover {
+  background-color: #ffbbca;
+  border: #ffbbca;
+}
+#moreinfo-container {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16.6619px;
+  line-height: 20px;
+}
+
+#moreinfo-container h3 {
+  padding: 10px;
+  font-weight: 400;
+
+}
+section {
+  display: flex;
+  align-items:center;
+  margin: 50px;
+  width: 900px;
+}
+section img {
+  border: 1px solid #c7c7c7;
+  margin: 10px;
+  margin-right: 50px;
+}

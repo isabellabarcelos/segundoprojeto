@@ -1,0 +1,23 @@
+#message{
+    height: 100px;
+    width: 90%;
+    margin-bottom: 3%;
+    border: 1px solid #C7C7C7;
+    border-radius: 3px;
+    border-radius: 3px;
+    padding-left: 5px;
+    outline: none;
+    margin-bottom: 500px;
+}
+
+#div2 {
+    width: 30%;
+    height: 500px;
+    padding-left: 490px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+#key-title{
+    margin: 10px;
+}

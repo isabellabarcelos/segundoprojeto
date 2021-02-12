@@ -1,16 +1,10 @@
 import React from 'react';
+
 import "./global.css";
-import Login from "./pages/Login/index"
-import ShoppingList from './pages/shoppingList';
-import MeuCarrinho from './pages/MeuCarrinho';
+import Routes from "./routes"
 
 function App() {
-
-  return (
-    <div id = "global-spacing"> 
-      <MeuCarrinho/>
-    </div> 
-  );
+  return <Routes/>;
 }
 
 export default App;

@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #body {
+   width: 100%;
+  }
+  
+   #div {
+    width: 25%;
+    height: 500px;
+    padding-left: 490px;
+    margin-top: 100px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  #img2 {
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+  }
+  
+  #username,
+  #password {
+    width: 90%;
+    height: 35px;
+    margin-bottom: 3%;
+    border: 1px solid #C7C7C7;
+    border-radius: 3px;
+    border-radius: 3px;
+    padding-left: 5px;
+    outline: none;
+  }
+  
+  .login {
+    width: 90%;
+    height: 35px;
+    margin-bottom: 3%;
+    border: 1px solid #fab0af;
+    border-radius: 3px;
+    outline: none;
+    background-color: #fab0af;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .login:hover {
+    background-color: #ffcbca;
+    border: #ffcbca;
+  }
+  #div h2 {
+    padding-bottom: 10px;
+    display: flex;
+  }
+  #a {
+    padding-bottom: 15px;
+    cursor: pointer;
+    color: #fab0af;
+  }
+  #a:hover {
+    text-decoration: underline;
+  }
+  #div h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+  }
+  #brand-image{
+  
+    width: 200px;
+    height: 200px;
+    position: initial;
+    background: url("logo2.png") 13% 0 no-repeat;
+    background-image: url("logo2.png");
+    background-size: 100% 100%;
+  }
+  #footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+  
+  form p {
+    display: flex;
+    
+  }

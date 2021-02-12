@@ -1,80 +1,61 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./styles.css";
 import Card2 from "../../components/card2";
 import Header from "../../components/Header/index"
 import Rodape from "../../components/Rodape/index"
-import { FaTrashRestoreAlt } from 'react-icons/fa';
+import {Link,useLocation} from "react-router-dom"
+import {AiOutlineArrowLeft} from "react-icons/ai"
+
 
 
 export default function Carrinho() {
-    const list = [
-        {
-          id : 1,
-          name: "Iogurte de morango 1L",
-          price: "R$ 6,00",
-          quant: "",
-        },
-        {
-          id : 2,
-          name: "Iogurte natural 1L",
-          price: "R$ 6,00",
-          quant: "",
-        },
-        {
-          id : 3,
-          name: "Iogurte de ameixa 1L",
-          price: "R$ 6,00",
-          quant: "",
-        },
-        {
-          id : 4,
-          name: "Leite integral 1L",
-          price: "R$ 4,00",
-          quant: "",
-        },
-        {
-          id : 5,
-          name: "Leite desnatado 1L",
-          price: "R$ 4,00",
-          quant: "",
-        },
-        {
-          id : 6,
-          name: "Manteiga sem sal 500g ",
-          price: "R$ 8,00",
-          quant: "",
-        },
-        {
-          id : 7,
-          name: "Manteiga com sal 500g",
-          price:"8,00",
-          quant: "",
-        },
-        {
-          id: 8,
-          name: "Total",
-          total:"",
-        }
-      ];
-    const renderList = list.map((item) => (
+    const {state} = useLocation();
+    const data = state.data;
+    const [cardList, SetCardList] = useState([
+        
+       
+      ]);
+    const renderList = cardList.slice().reverse().map((item) => (
     <li key={item.id.toString()}>
         <Card2 data = {item}/>
     </li>
     )); 
-  
-    return (
+    function AddProduct(){
+        const length = cardList.length;
+        const NewProduct = {
+          id: length + 1, 
+          name: data.name,
+          brand: data.brand,  
+          price: data.price,
+        };
+
+        const NewCardList = cardList.concat(NewProduct);
+        SetCardList(NewCardList);
+    }
+
+    return(
         <div className = "container">
-            <Header/>
-            <div className = "title-container">
-                <h1>Meu Carrinho</h1>
+          <Header/>
+          <div className = "title-container-details">
+              <Link style = {{color: "#ffcbca"}} to = "/"><AiOutlineArrowLeft className= "arrow"/></Link>
+              <h1>Meu Carrinho</h1>
             </div>
-    
-            <div id ="table">
-                <ul id ="ul">{renderList}</ul>
-            </div>
-           
-            <Rodape/>
-            
-        </div>
+          <div id = "table">
+            <div id ="ul">  
+                <ul>{renderList}</ul>
+                <div id ="total">  
+                <ul><strong>Total</strong></ul>
+                </div> 
+            </div>   
+        
+          </div>
+         <button className = "login4" onClick = {AddProduct}><strong>Adicionar ao carrinho</strong></button>
+          
+
+          <div id = "footer">
+            <Rodape/> 
+          </div>   
+          
+     </div> 
     );
 }
